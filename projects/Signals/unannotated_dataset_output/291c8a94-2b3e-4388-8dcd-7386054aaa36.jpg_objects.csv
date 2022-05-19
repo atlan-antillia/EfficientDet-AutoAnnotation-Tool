@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+291c8a94-2b3e-4388-8dcd-7386054aaa36.jpg,Pedestrian_Signal_Blue,0.83,43,275,119,471
+291c8a94-2b3e-4388-8dcd-7386054aaa36.jpg,Pedestrian_Signal_Red,0.8,203,241,310,439

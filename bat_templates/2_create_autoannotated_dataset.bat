@@ -1,0 +1,4 @@
+rem 2_create_autoannotated_dataset.bat
+
+call 2.2_apply_autoannotator.bat
+call 2.3_autoannotated_yolo2tfrecord_converter.bat

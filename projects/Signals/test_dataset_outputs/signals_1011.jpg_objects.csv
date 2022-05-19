@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+signals_1011.jpg,Traffic_Signal_Red,0.95,430,180,636,261

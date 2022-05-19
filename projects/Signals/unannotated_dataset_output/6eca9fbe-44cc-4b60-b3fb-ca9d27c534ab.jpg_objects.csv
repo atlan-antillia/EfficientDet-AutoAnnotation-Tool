@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+6eca9fbe-44cc-4b60-b3fb-ca9d27c534ab.jpg,Traffic_Signal_Blue,0.83,309,229,438,283
+6eca9fbe-44cc-4b60-b3fb-ca9d27c534ab.jpg,Traffic_Signal_Blue,0.76,207,426,304,463

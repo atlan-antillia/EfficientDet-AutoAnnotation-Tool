@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+signals_1028.jpg,Pedestrian_Signal_Red,0.98,519,170,636,376

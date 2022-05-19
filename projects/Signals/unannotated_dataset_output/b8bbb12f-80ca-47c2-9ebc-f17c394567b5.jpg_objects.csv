@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+b8bbb12f-80ca-47c2-9ebc-f17c394567b5.jpg,Pedestrian_Signal_Red,0.78,109,350,177,479

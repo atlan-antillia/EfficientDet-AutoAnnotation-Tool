@@ -1,0 +1,2 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+df70cafa-131c-45be-b658-cffd65b1fc44.jpg,Traffic_Signal_Blue,0.9,383,339,508,408
