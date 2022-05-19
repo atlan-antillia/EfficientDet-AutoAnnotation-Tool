@@ -371,7 +371,7 @@ call 1.4_pretrain_create_saved_model.bat
 
 <h2><a name="II">STEP II: Apply AutoAnnotation Tool</a></h2>
 
-<h2><a name="2.1">2.1 Prepare a new images dataset</a></h2>.
+<h2><a name="2.1">2.1 Prepare a new images dataset</a></h2>
  Please collet new signals images to retrain the efficientdet signals model created by STEP I, and copy those images files to 
  unannotated_dataset folder.<br>
 <pre>
@@ -404,15 +404,15 @@ python ../../AutoAnnotator.py ^
   --output_image_dir=./unannotated_dataset_output
 </pre>
  
-By running the command above, we are able to detect signals objects in the images in the retrain_images folder, 
+By running the command above, we are able to detect signals objects in the images in the unannotated_dataset folder, 
 and get annotation information, bounding-boxes and labels, on the detected objects.
 In this way, we can save such annotation information as the YOLO annotation files.
 <br>
-Input; unannotated retrain images
+Input; unannotated images dataset
 <pre>
 ./projects/
   +- Signals/
-    +- retrain_images
+    +- unannotated_dataset/
       +- images*.jpg
 
 </pre>
@@ -558,7 +558,7 @@ Output: retrained_model
 <pre>
 ./projects/
   +- Signals/
-    +- retrained_model/
+    +- retrained_models/
       +- model.ckpt*
         ...
 </pre>
@@ -594,7 +594,7 @@ Output: retrained_saved_model
 ./projects/
   +- Signals/
     +- retrained_saved_model/
-      +- saved_mode.pb
+      +- saved_model.pb
 </pre>
 <b>ShortCut</b><br>
 Instead of the above two bat files, you can also run the following bat file.<br>
