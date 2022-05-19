@@ -17,6 +17,7 @@ and get the bouding boxes and labels of the detected ojbects, which are really a
  To clarify explanation, we focus an image dataset of Pedestrian and Traffic Signals to apply our AutoAnnotation Tool, because we are able to collect 
   easily those images, and the number of classes of the Signals is small, at most only five.
 <br>
+<br>
 <a href="#1">STEP I: Pretrain Model</a><br>
 <a href="#1,1">1.1. Clone repository</a><br>
 <a href="#1.2">1.2. Create a project</a><br>
@@ -293,11 +294,11 @@ python ../../ModelTrainer.py ^
   --num_epochs=100
 </pre>
 
-Input: pretrain_tfrecord
+Input: pretrain_tfrecords
 <pre>
  ./projects/
    +- Signals/
-     +-pretrain_tfrecord/
+     +-pretrain_tfrecords/
        +- train/
          ...
        +- valid/
@@ -307,7 +308,7 @@ Output: pretrained_model
 <pre>
  ./projects/
    +- Signals/
-     +- pretrained_model/
+     +- pretrained_models/
         +- ckpt.*
 </pre>
     
@@ -337,11 +338,11 @@ python ../../SavedModelCreator.py ^
   --saved_model_dir=./pretrained_saved_model
 </pre>
 <br>  
-Input: pretrained_model
+Input: pretrained_models
 <pre>
  ./projects/
    +- Signals/
-     +- pretrained_model/
+     +- pretrained_models/
        +- ckpt.*
    ...
 </pre>
