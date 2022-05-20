@@ -131,6 +131,29 @@ Traffic_Signal_Red
 Traffic_Signal_Yellow
 </pre>
 
+Sample Signals:<br>
+<table>
+<tr>
+<td>Pedestrian_Signal_Blue<br>
+<img src="./asset/Pedestrian_Signal_Blue.jpg" width="200" height="auto">
+</td>
+<td>Pedestrian_Signal_Red<br>
+<img src="./asset/Pedestrian_Signal_Red.jpg" width="200" height="auto">
+</td>
+<td>Traffic_Signal_Blue<br>
+<img src="./asset/Traffic_Signal_Blue.jpg" width="200" height="auto">
+</td>
+</tr>
+<tr>
+<td>Traffic_Signal_Red<br>
+<img src="./asset/Traffic_Signal_Red.jpg" width="200" height="auto">
+</td>
+<td>Traffic_Signal_Yellow<br>
+<img src="./asset/Traffic_Signal_Yellow.jpg" width="200" height="auto">
+</td>
+</tr>
+</table>
+<br>
 <h3><a name="1.3.2">1.3.2 Prepare an images dataset</a></h3>
 Please collect a minmum dataset of signals images, which must be enough number of images,
  probably several dozen images will be needed for each class.<br>
