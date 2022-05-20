@@ -410,11 +410,11 @@ Please run the following bat file to apply the autoannotation tool to the new un
  which will detect objects in the images in unannotated_dataset and create YOLO annotation files 
  to the images.
 <pre>
-2.2_apply_autoannotationtor.bat
+2.2_apply_autoannotator.bat
 </pre>
 , which is the following.
 <pre>
-rem 2.2_apply_annotationtor.bat
+rem 2.2_apply_autoannotator.bat
 python ../../AutoAnnotator.py ^
   --runmode=saved_model_infer ^
   --model_name=efficientdet-d0 ^
