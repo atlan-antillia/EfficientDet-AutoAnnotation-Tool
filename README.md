@@ -12,7 +12,7 @@ More precisely speaking, this is a semi autoannotation tool, not a complete auto
 <b>Workflow of EfficientDet-AutoAnnotation-Tool</b>.<br>
 1. Prepare an images dataset of any specific domain which you are interested in.<br>
 2. Create an annotated images dataset by using any GUI based annotation tool.<br>
-3, Train your own efficientdet model by feeding the annotated dataset to a pretrained efficientdet-finetuning model.<br>
+3. Train your own efficientdet model by feeding the annotated dataset to a pretrained efficientdet-finetuning model.<br>
 4. Detect the objects in some unannotated images of the same domain by using your own trained efficientdet model.<br>
 5. Save the bounding boxes and labels for the detected objects as your own autoanntotation files.<br>
 <br>
