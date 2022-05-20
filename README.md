@@ -8,14 +8,17 @@ Ordinally, that annotation task may need a lot of time, because the tedious mous
 <br>
 We would like to reduce the cost and time of annotation task for object detection,
 by developing AutoAnnotation Tool based on <a href="https://github.com/google/automl/tree/master/efficientdet">EfficientDet inference engine</a>.
-More precisely speaking, this tool is a semi autoannotation tool, because as the first step we need any annotation tool 
-to create an annotated pretrain dataset for an image dataset of any specific domain in which you are interested. As the second step, the annotated dataset will be fed to 
-efficientdet-finetuning model to train your own efficientdet model.<br>
-As the third step, the trained efficientdet model can be used to detect(infer) objects in some unannotated images of the same domain, 
-and get the bouding boxes and labels of the detected ojbects, which are really annotation data for the unannoted images. It is our EfficientDet-AutoAnnotation-Tool.
+More precisely speaking, this is a semi autoannotation tool, not a complete autoannotation tool without a GUI based annotation tool.<br>
+<b>Workflow of EfficientDet-AutoAnnotation-Tool</b>.<br>
+
+1. Prepare an images dataset of any specific domain which you are interested in.<br>
+1. Create an annotated images dataset by using any GUI based annotation tool<br>
+2, Train your own efficientdet model by feeding the annotated dataset to a pretrained efficientdet-finetuning model.<br>
+3. Detect the objects in some unannotated images of the same domain by using your own trained efficientdet model.<br>
+4. Save the bounding boxes and labels for the detected objects as your own autoanntotation files.<br>
 <br>
- To clarify explanation, we focus an image dataset of Pedestrian and Traffic Signals to apply our AutoAnnotation Tool, because we are able to collect 
-  easily those images, and the number of classes of the Signals is small, at most only five.
+ To clarify explanation, we apply EfficientDet AutoAnnotation Tool to an images dataset of Pedestrian and Traffic Signals,
+  because it is easy to collect and the number of classes of the Signals dataset is small, at most only five.
 <br>
 <br>
 <a href="#1">STEP I: Pretrain Model</a><br>
