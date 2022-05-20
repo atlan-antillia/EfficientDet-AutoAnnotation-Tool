@@ -10,12 +10,12 @@ We would like to reduce the cost and time of annotation task for object detectio
 by developing AutoAnnotation Tool based on <a href="https://github.com/google/automl/tree/master/efficientdet">EfficientDet inference engine</a>.
 More precisely speaking, this is a semi autoannotation tool, not a complete autoannotation tool without a GUI based annotation tool.<br>
 <b>Workflow of EfficientDet-AutoAnnotation-Tool</b>.<br>
-
 1. Prepare an images dataset of any specific domain which you are interested in.<br>
 1. Create an annotated images dataset by using any GUI based annotation tool<br>
 2, Train your own efficientdet model by feeding the annotated dataset to a pretrained efficientdet-finetuning model.<br>
 3. Detect the objects in some unannotated images of the same domain by using your own trained efficientdet model.<br>
 4. Save the bounding boxes and labels for the detected objects as your own autoanntotation files.<br>
+<br>
  To clarify explanation, we apply EfficientDet AutoAnnotation Tool to an images dataset of Pedestrian and Traffic Signals,
   because it is easy to collect and the number of classes of the Signals dataset is small, at most only five.
 <br>
