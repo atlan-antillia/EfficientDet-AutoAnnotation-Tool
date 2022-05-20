@@ -16,8 +16,7 @@ More precisely speaking, this is a semi autoannotation tool, not a complete auto
 4. Detect the objects in some unannotated images of the same domain by using your own trained efficientdet model.<br>
 5. Save the bounding boxes and labels for the detected objects as your own autoanntotation files.<br>
 <br>
- To clarify explanation, we apply EfficientDet AutoAnnotation Tool to an images dataset of Pedestrian and Traffic Signals,
-  because it is easy to collect and the number of classes of the Signals dataset is small, at most only five.
+ To clarify explanation, we apply EfficientDet AutoAnnotation Tool to an images dataset of Pedestrian and Traffic Signals, because it is easy to collect and the number of classes of the Signals dataset is small, at most only five.
 <br>
 <br>
 <a href="#1">STEP I: Pretrain Model</a><br>
