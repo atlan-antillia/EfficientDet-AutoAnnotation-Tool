@@ -62,7 +62,7 @@ The main source code of this repository is based on google/automl/efficientdet.
 We use the efficientdet-d0 pretraiend model to train a custom dataset,
 
 <h2><a name="1.2">1.2. Create a project</a></h2>
-As an simple example, we create a project <b>Signals</b> which contains a images dataset of pedestrian and traffic signals.<br>
+As an simple example, we create a project <b>Signals</b> which contains an images dataset of pedestrian and traffic signals.<br>
 Please run <a href="./ProjectCreator.py">ProjectCreator.py</a> in your local repository.<br>
 Usage:
 <pre>
@@ -375,7 +375,7 @@ Output: pretrained_saved_model
 ./projects/
   +- Signals/
     +- pretrained_saved_model/
-      +- saved_mod.pb
+      +- saved_model.pb
 </pre>
      
 <b>ShortCut</b><br>
@@ -432,7 +432,7 @@ By running the command above, we are able to detect signals objects in the image
 and get annotation information, bounding-boxes and labels, on the detected objects.
 In this way, we can save such annotation information as the YOLO annotation files.
 <br>
-Input; unannotated images dataset
+Input: unannotated images dataset
 <pre>
 ./projects/
   +- Signals/
