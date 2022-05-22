@@ -339,10 +339,10 @@ Output: pretrained_model
 ModelTraining console output:<br>
 <img src="./asset/pretrain_metrics_at_epoch55_earlystopping.png" width="640" height="auto"><br>
 <br>
-COCO metrics:<br>
+<a href="./projects/Signals/pretrain_eval/coco_metrics.csv">COCO metrics </a><br>
 <img src="./asset/pretrain_cocometrics_f_and_map_until_epoch55.png" width="640" height="auto"><br>
 <br>
-Training loss :<br>
+<a href="./projects/Signals/pretrain_eval/train_loss.csv">Training loss</a><br>
 <img src="./asset/pretrain_train_loss_until_epoch55.png" width="640" height="auto"><br>
 <br>
 
