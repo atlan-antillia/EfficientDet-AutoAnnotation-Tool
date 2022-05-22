@@ -1,10 +1,10 @@
-<h1>EfficientDet-AutoAnnotation-Tool (Updated:2022/05/20)</h1>
+<h1>EfficientDet-AutoAnnotation-Tool (Updated:2022/05/22)</h1>
 
 This is an experimental project to develop EfficientDet-AutoAnnotation-Tool(EAAT).<br>
 This tool is based on a finetuningmodel of <a href="https://github.com/google/automl/tree/master/efficientdet">google/automl/efficientdet</a> for object detection task.<br>
 For that kind of task, we have to collect a set of enough images of a specific domain,
 and create annotation files for those images, which define boundning boxes(bboxes) and labels for each object in each images.
-Ordinally, that annotation task may need a lot of time, because the tedious mouse operations to define bboxes may be needed with your own hands.
+The annotation task generally takes a lot of time, because the tedious mouse operations to define bboxes may be needed with your own hands.
 <br>
 We would like to reduce the cost and time of annotation task for object detection,
 by developing AutoAnnotation Tool based on <a href="https://github.com/google/automl/tree/master/efficientdet">EfficientDet inference engine</a>.
@@ -281,9 +281,9 @@ Please run the following bat file to inspect the pretrain_tfrecords/train.
 </pre>
 <br> 
 tfrecord_inspector_objects_count:<br>
-<img src="./asset/tfrecord_inspector_objects_count.png" width="640" height="auto"><><br>
+<img src="./asset/tfrecord_inspector_objects_count.png" width="640" height="auto"><br>
 tfrecord_inspector_train sample image:<br>
-<img src="./asset/tfrecord_inspector_images.png" width="640" height="auto"><><br>
+<img src="./asset/tfrecord_inspector_images.png" width="640" height="auto"><br>
 
 <h3><a name="1.4">1.4. Pretrain an efficientdet model</a></h3>
 Please download pretrained model efficientdet-d0 for the original coco efficientdet model from 
@@ -462,7 +462,7 @@ Please run the following bat file to convert YOLO dataset to TFRecords.<br>
 <pre>
 2.3_autoannotated_yolo2tfrecord_converter.bat
 </pre>
-, which is the following;
+, which is the following:
 <pre>
 rem 2.3_autoannotated_yolo2tfrecord_converter.bat
 python ../../annotation_converters/YOLO2TFRecordConverter.py ^
