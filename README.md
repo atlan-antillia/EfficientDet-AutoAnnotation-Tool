@@ -345,6 +345,9 @@ ModelTraining console output:<br>
 <a href="./projects/Signals/pretrain_eval/train_losses.csv">Training loss</a><br>
 <img src="./asset/pretrain_train_loss_until_epoch55.png" width="640" height="auto"><br>
 <br>
+<a href="./projects/Signals/pretrain_eval/coco_ap_per_class.csv">COCO ap per classes</a><br>
+<img src="./asset/pretrain_cocometrics_ap_per_class_atl_epoch55.png" width="640" height="auto"><br>
+<br>
 
 <h3><a name="1.5">1.5. Creat a saved model</a></h3>
 Please run the following bat file to create a saved_model from the pretrained model just created by above command. 
