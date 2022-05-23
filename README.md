@@ -282,8 +282,8 @@ Please run the following bat file to inspect the pretrain_tfrecords/train.
 <br> 
 tfrecord_inspector_objects_count:<br>
 <img src="./asset/tfrecord_inspector_objects_count.png" width="640" height="auto"><br>
-<br>
-From the bar graph above, you can see that the number of objects of Traffic_Signal_Yellow class is very small compared other classes,
+
+From the bar graph above, you can see that the number of objects of Traffic_Signal_Yellow class is very small compared with other classes,
 Apparently, this is a typical case of a imbalanced images dataset.
 <br>
 <br>
