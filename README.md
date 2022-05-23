@@ -282,6 +282,12 @@ Please run the following bat file to inspect the pretrain_tfrecords/train.
 <br> 
 tfrecord_inspector_objects_count:<br>
 <img src="./asset/tfrecord_inspector_objects_count.png" width="640" height="auto"><br>
+<br>
+From the bar graph above, you can see that the number of objects of Traffic_Signal_Yellow class is very small compared other classes,
+Apparently, this is a typical case of a imbalanced images dataset.
+<br>
+<br>
+
 tfrecord_inspector_train sample image:<br>
 <img src="./asset/tfrecord_inspector_images.png" width="640" height="auto"><br>
 
@@ -470,7 +476,6 @@ Please run the following bat file to convert YOLO dataset to TFRecords.<br>
 rem 2.3_autoannotated_yolo2tfrecord_converter.bat
 python ../../annotation_converters/YOLO2TFRecordConverter.py ^
   ./configs/autoannotated_yolo2tfrecord_converter.conf
-.conf
 </pre>
 ,where autoannotated_yol2tfrecord_convert.conf is the following.
 <pre>
