@@ -284,7 +284,7 @@ tfrecord_inspector_objects_count:<br>
 <img src="./asset/tfrecord_inspector_objects_count.png" width="640" height="auto"><br>
 
 From the bar graph above, you can see that the number of objects of Traffic_Signal_Yellow class is very small compared with other classes,
-Apparently, this is a typical case of a imbalanced images dataset.
+Apparently, this is a typical case of an imbalanced images dataset.
 <br>
 <br>
 
